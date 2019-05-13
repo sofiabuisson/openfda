@@ -19,7 +19,7 @@ class testHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
     #Creamos una funcion que nos devuelva la pagina de inicio del formulario
     def pincio(self):
 
-        f=open("formulariosofia.html", "r") #Abrimos y leemos el formulario
+        f=open("formulario.html", "r") #Abrimos y leemos el formulario
         message=f.read()
 
         return message
